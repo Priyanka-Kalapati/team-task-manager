@@ -1,0 +1,95 @@
+TEAM TASK MANAGER - FULL STACK PROJECT
+
+----------------------------------------
+📌 PROJECT DESCRIPTION
+----------------------------------------
+Team Task Manager is a full-stack web application where users can create projects, assign tasks, and track progress using role-based access (Admin/Member).
+
+It includes authentication, project management, task tracking, and a dashboard for analytics.
+
+----------------------------------------
+🚀 FEATURES
+----------------------------------------
+✔ User Signup & Login (JWT Authentication)
+✔ Role-based Access (Admin / Member)
+✔ Create & Manage Projects
+✔ Create, Assign & Update Tasks
+✔ Task Status Tracking (Pending / Completed)
+✔ Dashboard with Statistics:
+   - Total Projects
+   - Total Tasks
+   - Completed Tasks
+   - Pending Tasks
+
+----------------------------------------
+⚙️ TECHNOLOGIES USED
+----------------------------------------
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- MongoDB Atlas
+
+Authentication:
+- JWT (JSON Web Token)
+- bcryptjs
+
+----------------------------------------
+📡 API ENDPOINTS
+----------------------------------------
+Auth:
+- POST /api/auth/signup
+- POST /api/auth/login
+
+Projects:
+- POST /api/projects
+- GET /api/projects
+
+Tasks:
+- POST /api/tasks
+- PUT /api/tasks/:id
+- GET /api/tasks
+
+Dashboard:
+- GET /api/dashboard/stats
+
+----------------------------------------
+💻 HOW TO RUN PROJECT LOCALLY
+----------------------------------------
+1. Clone repository
+2. Go to backend folder
+3. Run: npm install
+4. Create .env file with:
+   - MONGO_URI
+   - JWT_SECRET
+   - PORT
+5. Start server:
+   npx nodemon server.js
+6. Open frontend/login.html
+
+----------------------------------------
+🌐 DEPLOYMENT
+----------------------------------------
+Backend deployed on: Railway
+Frontend deployed on: Netlify or Vercel
+
+----------------------------------------
+📊 PROJECT STATUS
+----------------------------------------
+✔ Backend Completed
+✔ Authentication Working
+✔ Task Management Working
+✔ Dashboard Working
+✔ MongoDB Connected
+
+----------------------------------------
+🎯 AUTHOR
+----------------------------------------
+Team Task Manager Project
+Built for Full-Stack Assignment Submission
